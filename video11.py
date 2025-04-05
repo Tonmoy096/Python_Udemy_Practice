@@ -1,8 +1,11 @@
-# Initialize the folder as a Git repository
-git init
+# type() and str()
 
-# Add the remote repository URL (replace <repository_url> with your actual repository URL)
-git remote add origin <repository_url>
+num_int = 20
 
-# Pull the remote repository into this folder
-git pull origin main
+num_float = 12.2
+
+text_str = "Python is amazing"
+
+print(type(num_int))
+print(type(num_float))
+print(type(text_str))
