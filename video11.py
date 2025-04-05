@@ -9,3 +9,7 @@ text_str = "Python is amazing"
 print(type(num_int))
 print(type(num_float))
 print(type(text_str))
+
+
+num_float = float(num_int)
+print(num_float)
