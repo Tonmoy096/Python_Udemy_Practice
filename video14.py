@@ -27,7 +27,7 @@ local_function()
 def modify_global():
 
     global global_var
-    global_var = 30
+    global_var = 30  # flobal variable also set to 30
 
     print("Inside function : global variabl=", global_var)
 
