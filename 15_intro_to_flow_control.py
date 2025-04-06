@@ -25,3 +25,13 @@ else:
 
 for i in range(8):
     print(i)
+
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+
+    if num == 6:
+        break
+
+else:
+    print("loop completed without break")
