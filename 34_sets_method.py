@@ -16,4 +16,4 @@ print("After updating my set is :", my_set)
 
 
 pop_element = my_set.pop()
-print("Here is the popped element:", pop_element)
+print("Here is the popped element:", pop_element, type(pop_element))
