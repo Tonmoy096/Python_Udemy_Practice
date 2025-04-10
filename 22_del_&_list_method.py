@@ -31,3 +31,21 @@ print(numbers)
 
 numbers.clear()
 print(numbers)
+
+list1 = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+print("List before deleting any elements:", list1)
+del list1[2]
+print("List after deleting one element:", list1)
+
+list1.pop(4)
+print(list1)
+
+list1[4] = 100
+print(list1)
+
+maxNumber = max(list1)
+print(maxNumber)
+
+list1.sort()
+print(list1)
