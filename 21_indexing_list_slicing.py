@@ -26,3 +26,8 @@ print(id(my_list))
 
 sliced_list[1] = "graph"
 print(sliced_list)
+
+
+list1 = [1, 2, 3, 45, 5, 6, "Hello Tonmoy", 77, 8, 9, 90, 22]
+print(list1[1::2])
+print(list1[6])
