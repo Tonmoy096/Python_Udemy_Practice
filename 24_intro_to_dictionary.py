@@ -37,3 +37,7 @@ print(student["Grade"])
 print(student.keys())
 print(student.values())
 print(student.items())
+
+for i in student:
+    print(i)
+    print(student[i])
