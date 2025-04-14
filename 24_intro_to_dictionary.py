@@ -41,3 +41,4 @@ print(student.items())
 for i in student:
     print(i)
     print(student[i])
+    print(i, student[i])
