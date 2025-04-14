@@ -42,3 +42,6 @@ for i in student:
     print(i)
     print(student[i])
     print(i, student[i])
+
+for i in student.values():
+    print(i)
