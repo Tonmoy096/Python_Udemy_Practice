@@ -25,3 +25,12 @@ def newgreat_user(name="Python is a great language"):
 
 message = newgreat_user()
 print(message)
+
+
+def showMsg():
+    print("Hello Tonmoy bhaiya")
+    print("Ki korcho bhaiya")
+    print("Khaiso rate?")
+
+
+showMsg()
